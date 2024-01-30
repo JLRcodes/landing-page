@@ -6,6 +6,7 @@
 
 header {
     background-color: #1F2937;
+    
    
 }
 
@@ -51,3 +52,37 @@ nav {
     margin-right: 25px;
 }
 
+ .left {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: 75px;
+    /* justify-content: */
+    /* align-items: */
+}
+
+button {
+    padding: 5px 18px;
+    background-color: #3882F6;
+    color: white; 
+    border-radius: 5px;
+    box-shadow: none;
+    width: 150px;
+}
+
+.right {
+    border: 1px solid red;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: rgb(200, 198, 198);
+    color: white;
+   position: relative;
+   left: 1025px;
+   bottom: 155px;
+}
